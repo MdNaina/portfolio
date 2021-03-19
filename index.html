@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BoxIcon -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- My Style -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav bd-grid">
+            <div><a href="#" class="nav__logo">Portfolio</a></div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#Projects" class="nav__link">Projects</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- home -->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h2 class="home__title">Hi,<br>I'm <span class="home__title-color">Mohamed Naina</span><br>I am Developer</h2>
+            </div>
+            <div class="home__social">
+                <a href="https://github.com/MdNaina/" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+        </section>
+
+        <!-- about  -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="bd-grid about__container">
+                <div class="about__img"><img src="./avatar.png" alt=""></div>
+                <div>
+                    <h2 class="about__subtitle">I'm Mohamed Naina</h2>
+                    <p class="about__text"> I am Self learner, I know some programming languages and I mastered Python. I am project based learner and I work lot of projects(using django, flask, pygame, etc). I manage my Time very efficiently and effectivily, my passion is coding ..! </p>
+                </div>
+            </div>
+        </section>
+        <!-- Skills  -->
+        <section class="skill section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitile">Profesional Skills</h2>
+                    <p class="skills__text">                  I learn some programming language, And I Scale them with Percentage</p>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-python skills__icon' ></i>
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div><span class="skills__persentage">100%</span></div>
+                        <div class="skills__bar skills__python"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML & CSS</span>
+                        </div>
+                        <div><span class="skills__persentage">60%</span></div>
+                        <div class="skills__bar skills__html"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-nodejs skills__icon'></i>
+                            <span class="skills__name">Node Js</span>
+                        </div>
+                        <div><span class="skills__persentage">70%</span></div>
+                        <div class="skills__bar skills__javascript"></div>
+                    </div>
+                </div>
+                <div class="skills__img">
+                    <img src="./skills.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="work section" id="Projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="work__container bd-grid">
+                <a href="https://github.com/MdNaina/steganograph_using_flask" class="work__img">
+                    <img src="./stegano.png" alt="">
+                    <div class="overlay">
+                        <div class="description">
+                            <h3>Steganography</h3> 
+                            <p>Bulid an Steganography website using Python library called Flask, This website is fully completed, click to open Steganography repo </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/MdNaina/Todo_App_using_react_js" class="work__img">
+                    <img src="./todo.jpg" align="center" alt="">
+                    <div class="overlay">
+                        <div class="description">
+                            <h3>Todo List</h3> 
+                            <p>Bulid an Todo List Website using node js framework called React, This website is fully completed, click to open Todo List repo  </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/MdNaina/E-Commerce_using_django" class="work__img">
+                    <img src="./e-commerce.png" alt="">
+                    <div class="overlay">
+                        <div class="description">
+                            <h3>E-Commerce Website</h3> 
+                            <p>Build an E-Commerce Website using Python framework called Django, This website in alpha state, click to open E-Commerce repo  </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/MdNaina/flappy_bird_using_pygame" class="work__img">
+                    <img src="./flappy.jpg" alt="">
+                    <div class="overlay">
+                        <div class="description">
+                            <h3>Flappy Bird</h3> 
+                            <p>Bulid an Flappy Bird game using python library called pygame, This game is completed, click to open Flappy Bird repo  </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__title">Naina</p>
+        <div class="footer__social">
+            <a href="https://github.com/MdNaina/" class="footer__icon"><i class='bx bxl-github'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <p>&#169; 2020 copyright All rights are reversed</p>
+    </footer>
+    <!-- Scroll Reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- My Script -->
+    <script src="./app.js"></script>
+</body>
+</html>
